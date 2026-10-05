@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>W&amp;W Barber Shop · Barbier in Leuven · Fades, baard &amp; styling</title>
+  <meta name="description" content="W&amp;W Barber Shop in Leuven — meer dan een kapsel, een echte ervaring. Fades, baardverzorging en styling op maat. 4,9★ op Google. Diestsestraat 246, 7 dagen op 7 open.">
+  <meta name="theme-color" content="#0b0b0c">
+  <link rel="canonical" href="https://wwbarbershop.be/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="W&amp;W Barber Shop · Leuven">
+  <meta property="og:description" content="Meer dan een kapsel, een echte ervaring. Fade • Stijl • Zelfvertrouwen. 4,9★ op Google.">
+  <meta property="og:image" content="assets/img/web/hero.jpg">
+  <meta property="og:locale" content="nl_BE">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/img/web/hero.jpg">
+  <link rel="stylesheet" href="styles.css?v=4">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BarberShop",
+    "name": "W&W Barber Shop",
+    "image": "assets/img/web/hero.jpg",
+    "telephone": "+32 460 96 85 33",
+    "priceRange": "€€",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Diestsestraat 246",
+      "postalCode": "3000",
+      "addressLocality": "Leuven",
+      "addressCountry": "BE"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": 50.8821096, "longitude": 4.7134874 },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Wednesday","Thursday","Friday","Saturday"], "opens": "10:00", "closes": "19:30" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Tuesday", "opens": "10:00", "closes": "19:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "12:00", "closes": "19:30" }
+    ],
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "192" },
+    "sameAs": ["https://www.instagram.com/w.wbarbershop/", "https://www.tiktok.com/@ww.barbershop"]
+  }
+  </script>
+</head>
+<body>
+  <!-- Logo, reused everywhere via <use> -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="logo" viewBox="0 0 200 200">
+      <g fill="none" stroke="currentColor">
+        <path d="M55 27 A86 86 0 1 0 145 27" stroke-width="4.5" stroke-linecap="round"/>
+        <path fill="currentColor" stroke="none" d="M100 24c-4.5-6.5-13.5-8-19.5-3.5-4.5 3-10.5 3-14-1.3 1.3 8 9 12.8 17.3 11.5 8-1.3 12.5-4.5 16.2-6.2 3.7 1.7 8.2 4.9 16.2 6.2 8.3 1.3 16-3.5 17.3-11.5-3.5 4.3-9.5 4.3-14 1.3-6-4.5-15-3-19.5 3.5z"/>
+        <g transform="rotate(-36 100 82)">
+          <rect x="94.5" y="38" width="11" height="38" rx="1.5" fill="currentColor" stroke="none"/>
+          <rect x="96.5" y="77" width="7" height="30" rx="3.5" stroke-width="3.5"/>
+        </g>
+        <g transform="rotate(36 100 82)" stroke-linecap="round">
+          <path d="M97.5 40 L99.2 88" stroke-width="4.5"/>
+          <path d="M102.5 40 L100.8 88" stroke-width="4.5"/>
+          <circle cx="94" cy="97" r="6.5" stroke-width="3.5"/>
+          <circle cx="106" cy="97" r="6.5" stroke-width="3.5"/>
+        </g>
+        <text x="100" y="143" text-anchor="middle" fill="currentColor" stroke="none" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="27">W &amp; W</text>
+        <text x="100" y="161" text-anchor="middle" fill="currentColor" stroke="none" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="9" letter-spacing="2.6">BARBER SHOP</text>
+      </g>
+    </symbol>
+  </svg>
+
+  <a class="skip" href="#main" data-i18n="skip">Naar inhoud</a>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="brand" aria-label="W&amp;W Barber Shop — home">
+        <svg class="brand__mark"><use href="#logo"/></svg>
+        <span class="brand__word">W&amp;W <em>Barber Shop</em></span>
+      </a>
+      <nav class="nav__links" aria-label="Hoofdmenu">
+        <a href="#ervaring" data-i18n="nav.exp">Ervaring</a>
+        <a href="#diensten" data-i18n="nav.services">Diensten</a>
+        <a href="#werk" data-i18n="nav.work">Werk</a>
+        <a href="#reviews" data-i18n="nav.reviews">Reviews</a>
+        <a href="#bezoek" data-i18n="nav.visit">Bezoek</a>
+      </nav>
+      <div class="nav__actions">
+        <button class="lang" id="langToggle" type="button" aria-label="Switch language">EN</button>
+        <a href="#boeken" class="btn btn--brass btn--sm" data-i18n="cta.book">Reserveer</a>
+        <button class="burger" id="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" hidden>
+    <nav aria-label="Mobiel menu">
+      <a href="#ervaring" data-i18n="nav.exp">Ervaring</a>
+      <a href="#diensten" data-i18n="nav.services">Diensten</a>
+      <a href="#werk" data-i18n="nav.work">Werk</a>
+      <a href="#reviews" data-i18n="nav.reviews">Reviews</a>
+      <a href="#bezoek" data-i18n="nav.visit">Bezoek</a>
+      <a href="#boeken" class="mobile-menu__cta" data-i18n="cta.book">Reserveer</a>
+    </nav>
+    <p class="mobile-menu__meta">Diestsestraat 246 · Leuven<br><a href="tel:+32460968533">+32 460 96 85 33</a></p>
+  </div>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="hero__media">
+        <img src="assets/img/web/hero.jpg" alt="Barbier van W&amp;W aan het werk, gezien door het raam met het W&amp;W-logo" fetchpriority="high">
+      </div>
+      <div class="hero__hex" data-hex="hero" aria-hidden="true"></div>
+      <div class="hero__shade"></div>
+
+      <div class="hero__content wrap">
+        <p class="eyebrow reveal"><span class="dot"></span> <span data-i18n="hero.eyebrow">Barbershop · Diestsestraat 246 · Leuven</span></p>
+        <h1 class="hero__title">
+          <span class="line"><span class="reveal-up" data-i18n="hero.t1">Meer dan</span></span>
+          <span class="line"><span class="reveal-up" data-i18n="hero.t2">een kapsel.</span></span>
+          <span class="line serif"><span class="reveal-up" data-i18n="hero.t3">Een echte ervaring.</span></span>
+        </h1>
+        <p class="hero__lead reveal" data-i18n="hero.lead">Fades met millimeterprecisie, baardwerk dat klopt en een stoel waar je even helemaal niets moet. Welkom bij W&amp;W.</p>
+        <div class="hero__cta reveal">
+          <a href="#boeken" class="btn btn--brass" data-i18n="cta.bookNow">Reserveer je plek</a>
+          <a href="tel:+32460968533" class="btn btn--ghost"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z" fill="currentColor"/></svg><span data-i18n="cta.call">Bel ons</span></a>
+        </div>
+      </div>
+
+      <div class="hero__foot wrap">
+        <a class="chip reveal" href="#reviews">
+          <span class="stars" aria-hidden="true">★★★★★</span>
+          <strong>4,9</strong> <span data-i18n="hero.rating">· 192 Google reviews</span>
+        </a>
+        <span class="chip chip--status reveal" id="openStatus"><span class="pulse"></span><span class="status-text">—</span></span>
+        <a class="scroll-cue" href="#ervaring" aria-label="Scroll"><span></span></a>
+      </div>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Fade</span><i>✦</i><span class="serif">Stijl</span><i>✦</i><span>Zelfvertrouwen</span><i>✦</i><span class="serif">Baard</span><i>✦</i><span>Leuven</span><i>✦</i>
+        <span>Fade</span><i>✦</i><span class="serif">Stijl</span><i>✦</i><span>Zelfvertrouwen</span><i>✦</i><span class="serif">Baard</span><i>✦</i><span>Leuven</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section exp" id="ervaring">
+      <div class="wrap exp__grid">
+        <div class="exp__text">
+          <p class="kicker reveal" data-i18n="exp.kicker">01 — De ervaring</p>
+          <h2 class="h2 reveal" data-i18n="exp.title">Jouw tevredenheid is <em>onze prioriteit.</em></h2>
+          <p class="body reveal" data-i18n="exp.p1">Bij W&amp;W begint elke knipbeurt met luisteren. We nemen de tijd om te begrijpen wat jij wil, geven eerlijk advies en werken het af tot in het kleinste detail — van de skin fade tot de laatste lijn in je baard.</p>
+          <p class="body reveal" data-i18n="exp.p2">Onder ons iconische hexagonplafond, met warm hout en een goede playlist, wordt een routinebezoek iets waar je naar uitkijkt.</p>
+
+          <ul class="pillars">
+            <li class="reveal">
+              <span class="pillars__n">I</span>
+              <div><h3 data-i18n="exp.f1t">Precisie</h3><p data-i18n="exp.f1">Strakke fades, scherpe lijnen, perfecte overgangen.</p></div>
+            </li>
+            <li class="reveal">
+              <span class="pillars__n">II</span>
+              <div><h3 data-i18n="exp.f2t">Advies op maat</h3><p data-i18n="exp.f2">We kijken naar je haartype, gezicht en stijl.</p></div>
+            </li>
+            <li class="reveal">
+              <span class="pillars__n">III</span>
+              <div><h3 data-i18n="exp.f3t">Eerlijke prijzen</h3><p data-i18n="exp.f3">Topkwaliteit zonder dat het je een fortuin kost.</p></div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="exp__media">
+          <figure class="frame frame--tall reveal">
+            <img src="assets/img/web/interior.jpg" alt="Interieur van W&amp;W Barber Shop met verlicht hexagonplafond" loading="lazy">
+          </figure>
+          <figure class="frame frame--float reveal">
+            <img src="assets/img/web/cut-taper.jpg" alt="Krullen met low taper fade" loading="lazy">
+          </figure>
+          <div class="badge reveal" aria-hidden="true">
+            <svg viewBox="0 0 120 120"><defs><path id="circ" d="M60 60 m-46 0 a46 46 0 1 1 92 0 a46 46 0 1 1 -92 0"/></defs><text><textPath href="#circ">FADE • STIJL • ZELFVERTROUWEN • </textPath></text></svg>
+            <svg class="badge__logo"><use href="#logo"/></svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrap stats">
+        <div class="stat reveal"><span class="stat__n" data-count="4.9" data-dec="1">4,9</span><span class="stat__l" data-i18n="stat.rating">Google-score</span></div>
+        <div class="stat reveal"><span class="stat__n"><span data-count="192">192</span></span><span class="stat__l" data-i18n="stat.reviews">reviews</span></div>
+        <div class="stat reveal"><span class="stat__n"><span data-count="9.5" data-dec="1">9,5</span>K</span><span class="stat__l" data-i18n="stat.followers">volgers op Instagram</span></div>
+        <div class="stat reveal"><span class="stat__n">7/7</span><span class="stat__l" data-i18n="stat.open">dagen open</span></div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <!-- PRIJZEN: indicatief — laat bevestigen door de eigenaar en pas hier aan. -->
+    <section class="section services" id="diensten">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker reveal" data-i18n="svc.kicker">02 — Diensten &amp; prijzen</p>
+          <h2 class="h2 reveal" data-i18n="svc.title">Het menu. <em>Kies je stijl.</em></h2>
+        </div>
+
+        <div class="services__grid">
+          <article class="signature reveal">
+            <div class="signature__img"><img src="assets/img/web/salon.jpg" alt="De kappersstoelen onder het hexagonplafond" loading="lazy"></div>
+            <div class="signature__body">
+              <p class="tag" data-i18n="svc.sigTag">Meest gekozen</p>
+              <h3 data-i18n="svc.sigTitle">Het W&amp;W Ritueel</h3>
+              <p data-i18n="svc.sigDesc">Knipbeurt naar keuze, baard trimmen en contouren met mes, wassen en stylen. Alles in één sessie.</p>
+              <div class="signature__foot">
+                <span class="price-big">€35</span>
+                <span class="time">± 50 min</span>
+              </div>
+              <a href="#boeken" class="btn btn--dark" data-service="ritueel" data-i18n="svc.sigCta">Boek het ritueel</a>
+            </div>
+          </article>
+
+          <div class="menu">
+            <div class="menu__group reveal">
+              <h3 data-i18n="svc.g1">Haar</h3>
+              <ul>
+                <li data-service="knippen"><div><span class="svc" data-i18n="svc.s1">Knippen</span><span class="desc" data-i18n="svc.s1d">Schaar &amp; tondeuse, incl. styling</span></div><i></i><span class="price">€20</span></li>
+                <li data-service="fade"><div><span class="svc" data-i18n="svc.s2">Skin fade</span><span class="desc" data-i18n="svc.s2d">Low, mid of high — tot op de huid</span></div><i></i><span class="price">€22</span></li>
+                <li data-service="krullen"><div><span class="svc" data-i18n="svc.s3">Krullen &amp; textuur</span><span class="desc" data-i18n="svc.s3d">Knippen afgestemd op krullend haar</span></div><i></i><span class="price">€25</span></li>
+                <li data-service="kids"><div><span class="svc" data-i18n="svc.s4">Kinderen (-12 jaar)</span><span class="desc" data-i18n="svc.s4d">Rustig, snel en met geduld</span></div><i></i><span class="price">€15</span></li>
+              </ul>
+            </div>
+            <div class="menu__group reveal">
+              <h3 data-i18n="svc.g2">Baard</h3>
+              <ul>
+                <li data-service="baard"><div><span class="svc" data-i18n="svc.s5">Baard trimmen</span><span class="desc" data-i18n="svc.s5d">Vorm, lengte en strakke contouren</span></div><i></i><span class="price">€12</span></li>
+                <li data-service="combo"><div><span class="svc" data-i18n="svc.s6">Knippen + baard</span><span class="desc" data-i18n="svc.s6d">De klassieke combinatie</span></div><i></i><span class="price">€30</span></li>
+              </ul>
+            </div>
+            <div class="menu__group reveal">
+              <h3 data-i18n="svc.g3">Extra's</h3>
+              <ul>
+                <li data-service="design"><div><span class="svc" data-i18n="svc.s7">Hair design / lijnen</span><span class="desc" data-i18n="svc.s7d">Patronen en scherpe parts</span></div><i></i><span class="price"><small data-i18n="svc.from">vanaf</small> €5</span></li>
+                <li data-service="brows"><div><span class="svc" data-i18n="svc.s8">Wenkbrauwen (draad)</span><span class="desc" data-i18n="svc.s8d">Netjes en natuurlijk</span></div><i></i><span class="price">€8</span></li>
+                <li data-service="kleur"><div><span class="svc" data-i18n="svc.s9">Haarkleuring</span><span class="desc" data-i18n="svc.s9d">Op afspraak, met advies vooraf</span></div><i></i><span class="price"><small data-i18n="svc.from">vanaf</small> €30</span></li>
+              </ul>
+            </div>
+            <p class="menu__note reveal" data-i18n="svc.note">Klik op een dienst om meteen te reserveren. Walk-ins welkom wanneer er plek is.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WORK / GALLERY ============ -->
+    <section class="section work" id="werk">
+      <div class="wrap">
+        <div class="section-head section-head--split">
+          <div>
+            <p class="kicker reveal" data-i18n="work.kicker">03 — Het werk</p>
+            <h2 class="h2 reveal" data-i18n="work.title">Elke cut <em>een handtekening.</em></h2>
+          </div>
+          <a class="ig-link reveal" href="https://www.instagram.com/w.wbarbershop/" target="_blank" rel="noopener">
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2A3.2 3.2 0 1 1 12 8.8a3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM21.9 7.1c-.1-1.6-.4-3-1.6-4.2S17.7 1.3 16.1 1.2C14.4 1.1 9.6 1.1 7.9 1.2c-1.6.1-3 .4-4.2 1.6S2.1 5.4 2 7c-.1 1.7-.1 6.5 0 8.2.1 1.6.4 3 1.6 4.2s2.6 1.5 4.2 1.6c1.7.1 6.5.1 8.2 0 1.6-.1 3-.4 4.2-1.6s1.5-2.6 1.6-4.2c.1-1.7.1-6.4.1-8.1zM19.8 17.7a3.3 3.3 0 0 1-1.9 1.9c-1.3.5-4.4.4-5.9.4s-4.6.1-5.9-.4a3.3 3.3 0 0 1-1.9-1.9c-.5-1.3-.4-4.4-.4-5.9s-.1-4.6.4-5.9a3.3 3.3 0 0 1 1.9-1.9c1.3-.5 4.4-.4 5.9-.4s4.6-.1 5.9.4a3.3 3.3 0 0 1 1.9 1.9c.5 1.3.4 4.4.4 5.9s.1 4.6-.4 5.9z"/></svg>
+            <span>@w.wbarbershop</span>
+            <span class="arrow">↗</span>
+          </a>
+        </div>
+
+        <div class="gallery">
+          <button class="g-item g-item--a reveal" data-full="assets/img/web/cut-back.jpg"><img src="assets/img/web/cut-back.jpg" alt="Krullen met taper in de nek" loading="lazy"><span class="g-cap">Curly taper</span></button>
+          <button class="g-item g-item--b reveal" data-full="assets/img/web/cut-mullet.jpg"><img src="assets/img/web/cut-mullet.jpg" alt="Moderne mullet met fade" loading="lazy"><span class="g-cap">Modern mullet</span></button>
+          <button class="g-item g-item--c reveal" data-full="assets/img/web/cut-crop.jpg"><img src="assets/img/web/cut-crop.jpg" alt="Krullende crop met fade" loading="lazy"><span class="g-cap">Textured crop</span></button>
+          <button class="g-item g-item--d reveal" data-full="assets/img/web/cut-taper.jpg"><img src="assets/img/web/cut-taper.jpg" alt="Krullen met drop fade" loading="lazy" style="object-position:50% 35%"><span class="g-cap">Drop fade</span></button>
+          <button class="g-item g-item--e reveal" data-full="assets/img/web/cut-fringe.jpg"><img src="assets/img/web/cut-fringe.jpg" alt="Taper met volle bovenkant" loading="lazy"><span class="g-cap">Low taper</span></button>
+          <button class="g-item g-item--f reveal" data-full="assets/img/web/cut-curls.jpg"><img src="assets/img/web/cut-curls.jpg" alt="Krullend haar met fade, zijaanzicht" loading="lazy"><span class="g-cap">Curls &amp; fade</span></button>
+        </div>
+
+        <div class="ig-strip">
+          <a href="https://www.instagram.com/w.wbarbershop/" target="_blank" rel="noopener" class="ig-tile reveal"><img src="assets/img/web/ig-fade.jpg" alt="Fade in de zaak" loading="lazy"></a>
+          <a href="https://www.instagram.com/w.wbarbershop/" target="_blank" rel="noopener" class="ig-tile reveal"><img src="assets/img/web/ig-cape.jpg" alt="Klant in W&amp;W-kapmantel na een fade" loading="lazy"></a>
+          <a href="https://www.instagram.com/w.wbarbershop/" target="_blank" rel="noopener" class="ig-tile reveal"><img src="assets/img/web/ig-barber.jpg" alt="Barbier aan het werk" loading="lazy"></a>
+          <a href="https://www.instagram.com/w.wbarbershop/" target="_blank" rel="noopener" class="ig-tile reveal"><img src="assets/img/web/ig-team.jpg" alt="W&amp;W team-shirt" loading="lazy"></a>
+          <a href="https://www.instagram.com/w.wbarbershop/" target="_blank" rel="noopener" class="ig-tile reveal"><img src="assets/img/web/ig-night.jpg" alt="De verlichte gevel van W&amp;W 's avonds" loading="lazy"></a>
+          <a href="https://www.tiktok.com/@ww.barbershop" target="_blank" rel="noopener" class="ig-tile ig-tile--cta reveal">
+            <span data-i18n="work.more">Meer op</span>
+            <strong>TikTok &amp; Instagram</strong>
+            <span class="arrow">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ THE SHOP ============ -->
+    <section class="shop" id="zaak">
+      <div class="shop__pano" data-parallax>
+        <img src="assets/img/web/panorama.jpg" alt="Panorama van het interieur met hexagonplafond en W&amp;W-logo aan de muur" loading="lazy">
+      </div>
+      <div class="wrap shop__inner">
+        <div class="shop__card reveal">
+          <p class="kicker" data-i18n="shop.kicker">04 — De zaak</p>
+          <h2 class="h2" data-i18n="shop.title">Licht. Hout. <em>Rust.</em></h2>
+          <p class="body" data-i18n="shop.body">Een zaak die je onthoudt: het verlichte hexagonplafond, warme houten lamellen, comfortabele stoelen en een team dat je bij naam kent. Proper, modern en altijd gezellig.</p>
+        </div>
+        <div class="shop__grid">
+          <figure class="frame reveal"><img src="assets/img/web/hex-ceiling.jpg" alt="Hexagonplafond boven de kappersstoelen" loading="lazy"></figure>
+          <figure class="frame reveal"><img src="assets/img/web/reception.jpg" alt="Wachtruimte met W&amp;W-logo" loading="lazy"></figure>
+          <figure class="frame reveal"><img src="assets/img/web/facade.jpg" alt="Gevel van W&amp;W Barber Shop aan de Diestsestraat" loading="lazy"></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ REVIEWS ============ -->
+    <section class="section reviews" id="reviews">
+      <div class="wrap">
+        <div class="reviews__head">
+          <div>
+            <p class="kicker reveal" data-i18n="rev.kicker">05 — Reviews</p>
+            <h2 class="h2 reveal" data-i18n="rev.title">Leuven <em>is fan.</em></h2>
+          </div>
+          <div class="score reveal">
+            <div class="score__big">4,9</div>
+            <div class="score__meta">
+              <span class="stars" aria-label="4,9 van 5 sterren">★★★★★</span>
+              <span data-i18n="rev.based">Gebaseerd op 192 Google reviews</span>
+              <div class="bars" aria-hidden="true">
+                <div><span>5</span><b style="--w:95.3%"></b></div>
+                <div><span>4</span><b style="--w:2.6%"></b></div>
+                <div><span>3</span><b style="--w:0%"></b></div>
+                <div><span>2</span><b style="--w:.5%"></b></div>
+                <div><span>1</span><b style="--w:1.6%"></b></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel" id="reviewCarousel">
+          <div class="carousel__track" tabindex="0" aria-label="Klantreviews">
+            <blockquote class="review"><span class="stars">★★★★★</span><p>“Ik ben in Leuven opgegroeid en dit is oprecht de beste kapper die ik hier in de stad heb geprobeerd. Beide kappers knippen extreem goed met veel oog voor detail.”</p><footer>Toby M. <span>· Google</span></footer></blockquote>
+            <blockquote class="review"><span class="stars">★★★★★</span><p>“Top kapper, houdt altijd rekening met jouw wensen maar neemt ook de tijd om zijn mening te geven. Ik ben heel kritisch naar kappers, maar deze voldoet aan al mijn wensen.”</p><footer>Gino D. <span>· Google</span></footer></blockquote>
+            <blockquote class="review"><span class="stars">★★★★★</span><p>“Je hebt echt gouden handen — ik voel me altijd geweldig als ik hier vandaan ga! Je weet precies wat mij staat, elke keer weer perfect.”</p><footer>Abdulrahman A. <span>· Google</span></footer></blockquote>
+            <blockquote class="review"><span class="stars">★★★★★</span><p>“Moest op zoek naar een nieuwe barber. Ik kon direct terecht bij W&amp;W — zeer tevreden klant! Mooi interieur, warme sfeer en goede service.”</p><footer>Simon F. <span>· Google</span></footer></blockquote>
+            <blockquote class="review"><span class="stars">★★★★★</span><p>“Het team is vriendelijk, professioneel en neemt echt de tijd om naar je wensen te luisteren. De zaak is netjes, modern en goed verzorgd.”</p><footer>Ibrahim K. <span>· Google</span></footer></blockquote>
+            <blockquote class="review"><span class="stars">★★★★★</span><p>“Perfect, goede fade, ze zijn chill. Gewoon alles hier is goed.”</p><footer>Adam H. <span>· Google</span></footer></blockquote>
+            <blockquote class="review"><span class="stars">★★★★★</span><p>“Altijd goed geknipt, niet duur en super vriendelijk.”</p><footer>Sébastien V. <span>· Google</span></footer></blockquote>
+            <blockquote class="review"><span class="stars">★★★★★</span><p>“Hij neemt altijd tijd en luistert naar je wensen hoe jouw haar geknipt moet worden. Heel vriendelijke barbier. Zeker een aanrader!”</p><footer>Jaber J. <span>· Google</span></footer></blockquote>
+          </div>
+          <div class="carousel__nav">
+            <button class="round" data-dir="-1" aria-label="Vorige review">←</button>
+            <button class="round" data-dir="1" aria-label="Volgende review">→</button>
+            <a class="link-arrow" href="https://www.google.com/maps/place/W%26W+Barber+Shop%F0%9F%92%88/@50.8821096,4.7134874,17z/data=!4m8!3m7!1s0x47c161688d7aabd3:0x81b5862d7f479470!8m2!3d50.8821096!4d4.7134874!9m1!1b1!16s%2Fg%2F11v9vvnky2" target="_blank" rel="noopener" data-i18n="rev.all">Alle reviews op Google ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ BOOKING ============ -->
+    <section class="section booking" id="boeken">
+      <div class="booking__hex" data-hex="booking" aria-hidden="true"></div>
+      <div class="wrap booking__grid">
+        <div class="booking__intro">
+          <p class="kicker reveal" data-i18n="book.kicker">06 — Reserveren</p>
+          <h2 class="h2 reveal" data-i18n="book.title">Upgrade <em>je look.</em></h2>
+          <p class="body reveal" data-i18n="book.body">Kies je dienst en een moment dat jou past. Je aanvraag gaat rechtstreeks via WhatsApp naar de barbier — je krijgt snel een bevestiging.</p>
+          <ul class="booking__alt reveal">
+            <li><a href="tel:+32460968533"><span data-i18n="book.call">Liever bellen?</span> <strong>+32 460 96 85 33</strong></a></li>
+            <li><a href="https://wa.me/32460968533" target="_blank" rel="noopener"><span data-i18n="book.wa">Direct een bericht?</span> <strong>WhatsApp</strong></a></li>
+          </ul>
+        </div>
+
+        <form class="book-form reveal" id="bookForm" novalidate>
+          <div class="field field--full">
+            <label for="bService" data-i18n="form.service">Dienst</label>
+            <select id="bService" name="service" required>
+              <option value="ritueel">Het W&amp;W Ritueel — €35</option>
+              <option value="knippen">Knippen — €20</option>
+              <option value="fade" selected>Skin fade — €22</option>
+              <option value="krullen">Krullen &amp; textuur — €25</option>
+              <option value="combo">Knippen + baard — €30</option>
+              <option value="baard">Baard trimmen — €12</option>
+              <option value="kids">Kinderen (-12 jaar) — €15</option>
+              <option value="design">Hair design / lijnen — vanaf €5</option>
+              <option value="brows">Wenkbrauwen (draad) — €8</option>
+              <option value="kleur">Haarkleuring — vanaf €30</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="bDate" data-i18n="form.date">Datum</label>
+            <input type="date" id="bDate" name="date" required>
+          </div>
+          <div class="field">
+            <label for="bTime" data-i18n="form.time">Tijdstip</label>
+            <select id="bTime" name="time" required></select>
+          </div>
+          <div class="field field--full">
+            <label for="bName" data-i18n="form.name">Naam</label>
+            <input type="text" id="bName" name="name" autocomplete="given-name" required placeholder="Je voornaam">
+          </div>
+          <div class="field field--full">
+            <label for="bNote" data-i18n="form.note">Opmerking <span class="opt">(optioneel)</span></label>
+            <textarea id="bNote" name="note" rows="2" placeholder="Bv. foto van de stijl die je wil, of baard mag kort"></textarea>
+          </div>
+          <p class="form-error" id="formError" role="alert" hidden></p>
+          <button type="submit" class="btn btn--brass btn--block">
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.4-3c-.3-.4.3-.4.7-1.3a.5.5 0 0 0 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 2.9 2.9 0 0 0-.9 2.2 5 5 0 0 0 1.1 2.7 11.5 11.5 0 0 0 4.4 3.9c1.6.7 2.3.8 3.1.6a2.6 2.6 0 0 0 1.7-1.2 2.1 2.1 0 0 0 .1-1.2c0-.1-.2-.2-.5-.3z"/></svg>
+            <span data-i18n="form.submit">Verstuur via WhatsApp</span>
+          </button>
+          <p class="form-fine" data-i18n="form.fine">Geen account nodig. We bevestigen je afspraak zo snel mogelijk.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ============ VISIT ============ -->
+    <section class="section visit" id="bezoek">
+      <div class="wrap visit__grid">
+        <div class="visit__info">
+          <p class="kicker reveal" data-i18n="visit.kicker">07 — Bezoek ons</p>
+          <h2 class="h2 reveal">Diestsestraat 246<br><em>3000 Leuven</em></h2>
+          <p class="body reveal" data-i18n="visit.body">Op een paar minuten wandelen van station Leuven. Kom binnen, of reserveer vooraf om zeker te zijn van je plek.</p>
+
+          <div class="hours reveal">
+            <h3 data-i18n="visit.hours">Openingsuren</h3>
+            <dl id="hoursList">
+              <div data-day="1"><dt data-i18n="day.1">Maandag</dt><dd>10:00 – 19:30</dd></div>
+              <div data-day="2"><dt data-i18n="day.2">Dinsdag</dt><dd>10:00 – 19:00</dd></div>
+              <div data-day="3"><dt data-i18n="day.3">Woensdag</dt><dd>10:00 – 19:30</dd></div>
+              <div data-day="4"><dt data-i18n="day.4">Donderdag</dt><dd>10:00 – 19:30</dd></div>
+              <div data-day="5"><dt data-i18n="day.5">Vrijdag</dt><dd>10:00 – 19:30</dd></div>
+              <div data-day="6"><dt data-i18n="day.6">Zaterdag</dt><dd>10:00 – 19:30</dd></div>
+              <div data-day="0"><dt data-i18n="day.0">Zondag</dt><dd>12:00 – 19:30</dd></div>
+            </dl>
+          </div>
+
+          <div class="visit__cta reveal">
+            <a class="btn btn--brass" href="https://www.google.com/maps/dir/?api=1&amp;destination=W%26W%20Barber%20Shop%2C%20Diestsestraat%20246%2C%203000%20Leuven" target="_blank" rel="noopener" data-i18n="visit.route">Plan je route</a>
+            <a class="btn btn--ghost" href="tel:+32460968533">+32 460 96 85 33</a>
+          </div>
+        </div>
+        <div class="visit__map reveal">
+          <iframe title="Kaart: W&amp;W Barber Shop, Diestsestraat 246, Leuven" src="https://www.google.com/maps?q=W%26W%20Barber%20Shop%2C%20Diestsestraat%20246%2C%203000%20Leuven&amp;z=16&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          <figure class="visit__street"><img src="assets/img/web/street.jpg" alt="Straatbeeld van de Diestsestraat met W&amp;W Barber Shop" loading="lazy"></figure>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer__big" aria-hidden="true">W&amp;W</div>
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <svg class="footer__logo"><use href="#logo"/></svg>
+          <p data-i18n="foot.tag">Meer dan een kapsel, een echte ervaring.</p>
+        </div>
+        <div>
+          <h4 data-i18n="foot.visit">Adres</h4>
+          <p>Diestsestraat 246<br>3000 Leuven, België</p>
+        </div>
+        <div>
+          <h4 data-i18n="foot.contact">Contact</h4>
+          <p><a href="tel:+32460968533">+32 460 96 85 33</a><br><a href="https://wa.me/32460968533" target="_blank" rel="noopener">WhatsApp</a></p>
+        </div>
+        <div>
+          <h4 data-i18n="foot.follow">Volg ons</h4>
+          <p><a href="https://www.instagram.com/w.wbarbershop/" target="_blank" rel="noopener">Instagram</a><br><a href="https://www.tiktok.com/@ww.barbershop" target="_blank" rel="noopener">TikTok</a></p>
+        </div>
+      </div>
+      <div class="footer__base">
+        <span>© <span id="year">2026</span> W&amp;W Barber Shop</span>
+        <a href="#top" data-i18n="foot.top">Terug naar boven ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile action bar -->
+  <div class="actionbar" id="actionbar">
+    <a href="tel:+32460968533"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z" fill="currentColor"/></svg><span data-i18n="bar.call">Bel</span></a>
+    <a href="https://www.google.com/maps/dir/?api=1&amp;destination=W%26W%20Barber%20Shop%2C%20Diestsestraat%20246%2C%203000%20Leuven" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg><span data-i18n="bar.route">Route</span></a>
+    <a href="#boeken" class="actionbar__main" data-i18n="cta.book">Reserveer</a>
+  </div>
+
+  <!-- Lightbox -->
+  <dialog class="lightbox" id="lightbox" aria-label="Foto">
+    <button class="lightbox__close" type="button" aria-label="Sluiten">×</button>
+    <img alt="">
+  </dialog>
+
+  <script src="script.js?v=4" defer></script>
+</body>
+</html>
